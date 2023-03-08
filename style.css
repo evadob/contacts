@@ -40,3 +40,25 @@
 }
 
 /* ----Tvoje styly----- */
+
+.contact-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+
+.info {
+  flex: 1 0 auto;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 65%;
+}
